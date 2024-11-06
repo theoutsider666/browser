@@ -1,0 +1,49 @@
+<template>
+  <meta http-equiv="Content-Security-Policy" content="default-src *; script-src * 'unsafe-inline' 'unsafe-eval';">
+
+  <!-- style="margin-top: -30px" -->
+  <br>
+  <br>
+
+
+
+
+
+</template>
+
+<script>
+import { LeftCircleOutlined, RightCircleOutlined } from '@ant-design/icons-vue';
+
+import axios from 'axios';
+import { defineComponent } from 'vue';
+export default defineComponent({
+  name: "QueryPage",
+  components: {
+    LeftCircleOutlined,
+    RightCircleOutlined,
+  },
+  data() {
+
+    return {
+
+
+
+
+    }
+  },
+  methods: {
+
+
+  },
+
+});
+</script>
+
+<style scoped>
+
+
+
+
+
+
+</style>
