@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.test2_springboot.mapper.TissueMapper">
+    <select id="selectTissueBySpecies" resultType="String">
+        select tissue_name from tissue where species_name=#{speciesName}
+    </select>
+    <select id="selectIdByTissueNameAndSpeciesName" resultType="long">
+        select id from tissue where tissue_name=#{tissueName} And species_name=#{speciesName}
+    </select>
+</mapper>
