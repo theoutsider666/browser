@@ -1,2 +1,2 @@
 把原来的文件里的test-springboot/splicinggad位置里的myvue和src替换成这里的两个文件
-建议替换myvue的时候只需要替换myvue/myvue这个文件夹，这样替换速度会快很多
+建议替换myvue的时候只需要替换myvue/myvue/src和myvue/myvue/public这两个文件夹，这样替换速度会快很多
